@@ -1,0 +1,156 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+  font-size: 2.4em;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+p{
+  font-size: 10,25em;
+  font-weight: bolder;
+}
+
+#pEstadistico{
+  color: aliceblue;
+}
+
+button{
+  font-size: 3,5em;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(rgb(65, 23, 161), green, blue);
+  box-shadow: 2px 2px 10px rgba(rgb(0, 255, 128), green, blue, alpha);
+  color: rgb(231, 242, 243);
+  background-color: rgb(43, 94, 62);
+}
+
+button:hover{
+  background-color: rgb(9, 105, 30);
+}
+
+.container{
+  max-width: 1400px;
+  max-height: 1400px;
+  margin: auto;
+}
+
+header{
+  background-color: rgb(245,245,245)
+}
+
+header .logo{
+  margin:0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 1.8em;
+
+}
+
+header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(12, 11, 11)
+}
+
+header a:hover{
+  color:rgb(65, 156, 65)
+}
+
+#titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  )
+  ,url("../media/Cartas2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+#pantallaJuego{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  max-height: 1400px;
+  margin: 80px auto;
+  justify-content: space-around;
+  background-color: black;
+  display:inline-block;
+}
+
+.divTablero{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: rgb(238, 225, 225);
+}
+
+.divCard{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100px;
+  height: 200px;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: rgb(221, 146, 146);
+}
+
+.divPuntero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(17, 204, 101);
+ } 
+
+ .spanFlecha	{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 30px;
+	border-top: solid 15px;
+	border-right: solid 15px;
+  color: rgb(17, 204, 101);
+  transform: rotate(135deg);
+}
+
+
